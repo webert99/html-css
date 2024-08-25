@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.385);
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightslategray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        .p {
+            background-color: white;
+            color: lightslategray;
+        }
+        
+        main > .p:hover{
+            text-decoration: underline;
+            color:red;
+        }
+        .p {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            color: lightslategray;
+            padding: 10px 5px 30px 5px;
+            margin: 20px;
+           font-weight: 700;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+         <a href="https://www.youtube.com/watch?v=zz9H_fD-t3A">link</a>
+         <a href="https://www.youtube.com/watch?v=zz9H_fD-t3A" target="_blank">link</a>
+         <a href="#">link</a>
+         <a href="#">link</a>
+         <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>esportes politica e tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum praesentium at nobis animi nesciunt ullam dolorum quibusdam odio aliquid similique optio, rem modi id. Inventore corrupti deserunt cumque sapiente doloremque.</p>
+                <aside>
+                    <p>escrito por curso em video</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por curso em video</p>
+    </footer>
+    <main><p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae amet sit, et ipsa adipisci sequi unde explicabo obcaecati eum eos fugiat dolorem debitis aut nihil! Repellat quam asperiores natus quia?</p></main>
+</body>
+</html>
