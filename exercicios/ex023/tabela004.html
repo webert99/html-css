@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+        
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicios de tabela</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <th scope="row">grupos</th>
+            <th scope="row">nomes</th>
+            <th colspan="3" scope="rowgroup">filmes</th>
+        </thead>
+        <tbody>
+            <th rowspan="3" scope="colgroup">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>aliem</td>
+            <td>rambo</td>
+            <td>vingador</td>
+            <tr>
+                <td>Beatris Souza</td>
+                <td>aliem</td>
+                <td>Batman</td>
+                <td>flash</td>
+            </tr>
+            <tr>
+                <td>Cláudia melo</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big hero</td>
+            </tr>
+            <tr>
+            <th rowspan="3" scope="colgroup">Homens</th>
+            <td>Bruno Mendonça</td>
+            <td>intocaveis</td>
+            <td>amnésia</td>
+            <td>gladiador</td>
+        </tr>
+            <tr>
+                <td>Daniel lorenço</td>
+                <td>spider man</td>
+                <td>iron man</td>
+               <td>hulk</td>
+            </tr>
+            <tr>
+                <td>Fabio mota</td>
+                <td>star wars</td>
+                <td>xxxxxxx</td>
+                <td>xxxxxxxx</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
