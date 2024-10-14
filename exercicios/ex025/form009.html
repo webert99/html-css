@@ -3,57 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>tela de login</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient( to right, #db3c0b, #000);
-        }
-        div{
-            background-color: rgb(24, 22, 22);
-            color: white;
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            padding: 79px;
-            border-radius: 7px;
-            
-        }
-        #iname{
-            padding: 9.5px;
-            border: none;
-            outline: none;
-            font-size: 15px;
-        }
-        #ipassword{
-            padding: 9.5px;
-            border: none;
-            outline: none;
-            font-size: 15px;
-        }
-        button{
-            background-color: rgb(203, 203, 223);
-            border: none;
-            padding: 15px;
-            width: 100%;
-            border-radius: 8px;
-            font-size: 15px;
-            text-align: center;
-            margin: 20px 0px;
-            
-        }
-        button:hover{
-            background-image: linear-gradient( to right, #db3c0b, #000);
-            color: white;
-        }
-
-    </style>
+    
 </head>
 <body>
     <div>
         <h1>login</h1>
-        <form action="cadastro.php" method="get">
+        <p>seja bem-vindo(a) novamente. Faça login para acesar sua conta e poder fazer suas alterações.</p>
+        <form action="cadastro.php" method="post">
             <label for="iname">Name</label>
             <input type="text" name="Name" id="iname" minlength="5" maxlength="20" required placeholder="name">
             <br><br>
