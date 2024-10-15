@@ -34,11 +34,13 @@ input#enviar{
     background-color: rgb(203, 203, 223);
     border: none;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     font-size: 15px;
     text-align: center;
     margin: 20px 0px;
+    display: flex;
+    align-items: flex-end;
    
     
 }
